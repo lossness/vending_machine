@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #define MAX_SIZE 10
 
-// default amount of products 
+// define variables and default amounts
 int products_total = 4;
 int total_money_inserted;
 int inserted_coin_value;
@@ -18,7 +18,6 @@ struct Products
     char name[20];
 	int price;
 };
-//struct Products arr_products[MAX_SIZE];
 
 struct Products arr_products[MAX_SIZE] =
 {
